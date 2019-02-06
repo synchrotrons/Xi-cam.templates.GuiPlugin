@@ -1,0 +1,18 @@
+{
+   "core_name": "xicam",
+   "project_name": "test",
+   "app_name": "",
+   "plugin_name": "test",
+   "plugin_version": "",
+   "plugin_file_name": "__init__.py",
+   "author_name": "",
+   "author_email": "",
+   "author_url": "",
+   "description": "",
+   "keywords": "",
+   "dependencies": "",
+   "plugin_code": "",
+   "stages_code": "",
+   "yapsy_ext": "yapsy-plugin"
+}
+

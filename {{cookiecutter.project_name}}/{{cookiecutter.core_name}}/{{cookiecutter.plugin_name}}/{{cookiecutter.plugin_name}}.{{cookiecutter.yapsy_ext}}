@@ -1,0 +1,9 @@
+[Core]
+Name = {{cookiecutter.plugin_name}}
+Module = {{cookiecutter.plugin_file_name}}
+
+[Documentation]
+Author = {{cookiecutter.author_name}}
+Version = {{cookiecutter.plugin_version}}
+Website = {{cookiecutter.author_url}}
+Description = {{cookiecutter.description}}
