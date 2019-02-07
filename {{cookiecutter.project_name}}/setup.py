@@ -27,10 +27,13 @@ setup(
     classifiers=[
       'Development Status :: 3 - Alpha',
       'Intended Audience :: Developers',
+      'Intended Audience :: Science/Research',
+      'Topic :: Scientific/Engineering :: Physics',
       'Programming Language :: Python :: 3',
     ],
     keywords='{{cookiecutter.keywords}}',
     packages=find_packages(exclude=['docs', 'tests*']),
+    package_data={'{{cookiecutter.app_name}}': ['*.yapsy-plugin']},
     include_package_data=True,
     author='{{cookiecutter.author_name}}',
     install_requires=install_requires,
