@@ -18,7 +18,7 @@ install_requires = [x.strip() for x in all_reqs if 'git+' not in x]
 dependency_links = [x.strip().replace('git+', '') for x in all_reqs if x.startswith('git+')]
 
 setup(
-    name='{{cookiecutter.app_name}}',
+    name='xicam.{{cookiecutter.package_name}}',
     version=__version__,
     description='{{cookiecutter.description}}',
     long_description=long_description,

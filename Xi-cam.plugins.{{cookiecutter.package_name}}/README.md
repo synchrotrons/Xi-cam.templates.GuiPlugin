@@ -1,4 +1,4 @@
-{{ cookiecutter.project_name }}
+{{ cookiecutter.display_name }}
 ===============================
 
 version number: {{ cookiecutter.plugin_version }}
@@ -14,7 +14,7 @@ Installation / Usage
 
 To install use pip:
 
-    $ pip install {{ cookiecutter.project_name }}
+    $ pip install Xi-cam.plugins.{{ cookiecutter.package_name }}
 
 
 Or clone the repo:

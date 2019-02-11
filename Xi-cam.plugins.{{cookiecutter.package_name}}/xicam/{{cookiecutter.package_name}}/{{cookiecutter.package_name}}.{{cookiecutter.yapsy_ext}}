@@ -1,5 +1,5 @@
 [Core]
-Name = {{cookiecutter.plugin_name}}
+Name = {{cookiecutter.package_name}}
 Module = {{cookiecutter.plugin_file_name}}
 
 [Documentation]
