@@ -12,7 +12,7 @@
    "keywords": "",
    "dependencies": "",
    "plugin_code": "",
-   "stages_code": "",
+   "stages_code": "{'Stage 1': GUILayout(QLabel('Stage 1'))}",
    "yapsy_ext": "yapsy-plugin"
 }
 
