@@ -9,8 +9,6 @@
    "description": "",
    "keywords": "Xi-cam, plugin",
    "dependencies": "",
-   "plugin_code": "",
-   "stages_code": "{'Stage 1': GUILayout(QLabel('Stage 1'))}",
-   "yapsy_ext": "yapsy-plugin"
+   "_extensions": "jinja2_time.TimeExtensions"
 }
 
