@@ -7,6 +7,7 @@
    "author_email": "",
    "author_url": "",
    "description": "",
+   "dependencies": "",
    "keywords": "Xi-cam, plugin",
    "_extensions": ["jinja2_time.TimeExtension"]
 }
