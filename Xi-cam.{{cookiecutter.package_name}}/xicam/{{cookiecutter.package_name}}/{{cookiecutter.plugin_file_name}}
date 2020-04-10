@@ -1,22 +1,25 @@
-from qtpy.QtCore import *
-from qtpy.QtGui import *
-from qtpy.QtWidgets import *
-from qtpy import uic 
-import pyqtgraph as pg
+#from qtpy.QtCore import Qt
+#from qtpy.QtGui import QStandardItemModel
+from qtpy.QtWidgets import QLabel
+#from qtpy import uic
+#import pyqtgraph as pg
 
 from xicam.core import msg
 from xicam.plugins import GUIPlugin, GUILayout
 
-class {{cookiecutter.package_name}}(GUIPlugin):
-    name = '{{cookiecutter.package_name}}'
 
-    # insert GUI plugin generation
-{{cookiecutter.plugin_code}}
+class {{cookiecutter.package_name}}(GUIPlugin):
+    # Define the name of the plugin (how it is displayed in Xi-CAM)
+    name = "{{cookiecutter.display_name}}"
 
     def __init__(self, *args, **kwargs):
-        # insert auto generation
-        self.stages = {{cookiecutter.stages_code}}
-        super({{cookiecutter.package_name}}, self).__init__(*args,**kwargs)
+        # Insert code here
+
+        # Modify stages here
+        self.stages = {'Stage 1': GUILayout(QLabel("Stage 1...")),
+                       "Stage 2": GUILayout(QLabel("Stage 2..."))}
+
+        super({{cookiecutter.package_name}}, self).__init__(*args, **kwargs)
 
 
 
