@@ -46,6 +46,6 @@ setup(
     dependency_links=dependency_links,
     author_email='{{cookiecutter.author_email}}',
     entry_points={'xicam.plugins.GUIPlugin': [
-        f'{{cookiecutter.package_name}} = {entry_point_path}:{{cookiecutter.package_name}}'
+        f'{{cookiecutter.package_name}} = {entry_point_path}:{{cookiecutter.plugin_name}}'
     ]}
 )

@@ -1,6 +1,7 @@
 {
-   "package_name": "test",
-   "display_name": "My First Test Plugin",
+   "package_name": "myplugin",
+   "plugin_name": "MyPlugin",
+   "display_name": "My Plugin",
    "plugin_version": "1.0.0",
    "plugin_file_name": "__init__.py",
    "author_name": "",
