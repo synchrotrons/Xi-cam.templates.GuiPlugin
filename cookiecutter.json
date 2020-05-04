@@ -1,5 +1,5 @@
 {
-   "package_name": "myplugin",
+   "package_name": "my_plugin",
    "plugin_name": "MyPlugin",
    "display_name": "My Plugin",
    "plugin_version": "1.0.0",
