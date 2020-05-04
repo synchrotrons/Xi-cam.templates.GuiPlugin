@@ -1,16 +1,8 @@
 # Notes for development:
 #
+# Xi-CAM documentation: https://xi-cam2.readthedocs.io/
 # Documentation for python Qt: https://doc.qt.io/qtforpython/api.html
-#
-#
 
-#from qtpy.QtCore import Qt
-#from qtpy.QtGui import QStandardItemModel
-from qtpy.QtWidgets import QLabel
-#from qtpy import uic
-#import pyqtgraph as pg
-
-from xicam.core import msg
 from xicam.plugins import GUIPlugin, GUILayout
 
 
