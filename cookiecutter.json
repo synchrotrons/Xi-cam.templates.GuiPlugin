@@ -1,16 +1,15 @@
 {
-   "package_name": "test",
-   "display_name": "My First Test Plugin",
+   "package_name": "my_plugin",
+   "plugin_name": "MyPlugin",
+   "display_name": "My Plugin",
    "plugin_version": "1.0.0",
    "plugin_file_name": "__init__.py",
    "author_name": "",
    "author_email": "",
    "author_url": "",
    "description": "",
-   "keywords": "Xi-cam, plugin",
    "dependencies": "",
-   "plugin_code": "",
-   "stages_code": "{'Stage 1': GUILayout(QLabel('Stage 1'))}",
-   "yapsy_ext": "yapsy-plugin"
+   "keywords": "Xi-cam, plugin",
+   "_extensions": ["jinja2_time.TimeExtension"]
 }
 

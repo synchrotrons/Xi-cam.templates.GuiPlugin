@@ -14,7 +14,7 @@ Installation / Usage
 
 To install use pip:
 
-    $ pip install Xi-cam.plugins.{{ cookiecutter.package_name }}
+    $ pip install Xi-cam.{{ cookiecutter.package_name }}
 
 
 Or clone the repo:
