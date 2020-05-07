@@ -2,6 +2,7 @@
 #
 # Xi-CAM documentation: https://xi-cam2.readthedocs.io/
 # Documentation for python Qt: https://doc.qt.io/qtforpython/api.html
+from qtpy.QtWidgets import QLabel
 
 from xicam.plugins import GUIPlugin, GUILayout
 
