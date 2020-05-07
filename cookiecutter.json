@@ -3,7 +3,6 @@
    "plugin_name": "MyPlugin",
    "display_name": "My Plugin",
    "plugin_version": "1.0.0",
-   "plugin_file_name": "__init__.py",
    "author_name": "",
    "author_email": "",
    "author_url": "",

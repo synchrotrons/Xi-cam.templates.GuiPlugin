@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from codecs import open
 from os import path
-from pathlib import PurePath
+from pathlib import PurePath, Path
 
 
 __version__ = '{{cookiecutter.plugin_version}}'
@@ -19,12 +19,7 @@ with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
 install_requires = [x.strip() for x in all_reqs if 'git+' not in x]
 dependency_links = [x.strip().replace('git+', '') for x in all_reqs if x.startswith('git+')]
 
-# When user defines a custom plugin_file_name, we need to modify
-# the entry point pathing to include that module.
 entry_point_path = 'xicam.{{cookiecutter.package_name}}'
-if '{{cookiecutter.plugin_file_name}}' != '__init__.py':
-    stripped_file_name = PurePath('{{cookiecutter.plugin_file_name}}').stem
-    entry_point_path += f'.{stripped_file_name}'
 
 setup(
     name='xicam.{{cookiecutter.package_name}}',
